@@ -2,7 +2,8 @@ module.exports.config = {
   name: "create",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "Islamick Chat",
+  credits: "🛡️ 𝗥𝘀 𝗛𝗮𝗰𝗸𝗲𝗿 𝗧𝗲𝗮𝗺 𝗕𝗱 🛡️
+(Owner By 🥰 𝗥𝗦 𝗥𝗔𝗜𝗛𝗔𝗡 🥰) ",
   description: "( 𝙂𝙚𝙣𝙚𝙧𝙖𝙩 𝘼𝙄 𝙞𝙢𝙖𝙜𝙚𝙨 )",
   commandCategory: "create-images",
   usages: "( 𝖨𝗆𝖺𝗀𝗂𝗇𝖾 𝖨𝗆𝖺𝗀𝖾 )",
