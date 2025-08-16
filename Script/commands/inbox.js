@@ -2,7 +2,7 @@ module.exports.config = {
   name: "inbox",
   version: "1.0.0",
   hasPermission: 0,
-  credits: "Shaon",
+  credits: "🥰 𝗥𝗦 𝗥𝗔𝗜𝗛𝗔𝗡 🥰",
   description: "Send a random sad video",
   commandCategory: "media",
   usages: "",
