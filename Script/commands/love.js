@@ -3,9 +3,9 @@ module.exports.config = {
   name: "love",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Islamick Chat",
+  credits: "🥰 𝗥𝗦 𝗥𝗔𝗜𝗛𝗔𝗡 🥰",
   description: "story VEDIO",
-  commandCategory: "M H BD",
+  commandCategory: "RS BD",
   usages: "love7 vedio",
   cooldowns: 5,
   dependencies: {
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["•┄┅════❁🌺❁════┅┄•\n\n - তুমি ভালোবাসা মানে কি বুজ..??\n - আমি তো বুজি বিয়ের পর বউ এর সাথে হালাল ভালোবাসা বা পবিত্র সম্পর্ক কে...🌸🙈😍\n\n•┄┅════❁🌺❁════┅┄•"];
+   var hi = ["•┄┅════❁🌺❁════┅┄•\n\n - তুমি ভালোবাসা মানে কি বুজ..??\n - আমি তো বুজি বিয়ের পর বউ এর সাথে হালাল ভালোবাসা বা পবিত্র সম্পর্ক কে...(RS)🌸🙈😍\n\n•┄┅════❁🌺❁════┅┄•"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 "https://drive.google.com/uc?id=1QYWcqg1ijPhtNVlIzDqluKft-jDG22cW",
