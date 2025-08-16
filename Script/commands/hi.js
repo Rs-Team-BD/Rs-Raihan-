@@ -2,7 +2,8 @@ module.exports.config = {
   name: "hi",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "🛡️ 𝗥𝘀 𝗛𝗮𝗰𝗸𝗲𝗿 𝗧𝗲𝗮𝗺 𝗕𝗱 🛡️
+",
   description: "hi sticker",
   commandCategory: "QTV BOX",
   usages: "[text]",
