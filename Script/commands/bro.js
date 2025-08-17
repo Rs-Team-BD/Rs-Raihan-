@@ -2,7 +2,7 @@ module.exports.config = {
   name: "brother",
   version: "7.3.1",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️", 
+  credits: "『🔰』 RS CYBER TEAM BOT 『🔰』🐰"
   description: "Get Pair From Mention",
   commandCategory: "png",
   usages: "[@mention]",
