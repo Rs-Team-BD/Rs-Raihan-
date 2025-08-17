@@ -63,7 +63,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ 🥰 𝗥𝗦 𝗥𝗔𝗜𝗛𝗔𝗡 🥰 ッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ullash.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100058415330417\nতার সাতে যোগা যোগ করবেন WhatsApp :- +019628592*****", threadID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ 🥰 𝗥𝗦 𝗥𝗔𝗜𝗛𝗔𝗡 🥰 ッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Rs Raihan.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100058415330417\nতার সাতে যোগা যোগ করবেন WhatsApp :- +019628592*****", threadID);
    };
 
    if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "admin ke")) {
@@ -91,7 +91,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Fàrïyä Ïsläm Måïrâ") || (event.body.toLowerCase() == "@Fàrïyä Ïsläm Måïrâ")) {
+   if ((event.body.toLowerCase() == "@Fàrïyä Ïsläm Måïrâ") || (event.body.toLowerCase() == "@বেলি")) {
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস রায়হান এর বউ এর আইডি😠🥰⛏️", threadID);
    };
 
@@ -195,7 +195,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি <🥵", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Ami Raihan") || (event.body.toLowerCase() == "Ami Raihan")) {
+   if ((event.body.toLowerCase() == "Raihan") || (event.body.toLowerCase() == "raihan")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
   mess = "{name}"
