@@ -61,11 +61,8 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.imgur.com/WXQIgMz.jpeg",
+ "https://raw.githubusercontent.com/Rs-Team-BD/my-bot-assets/refs/heads/main/Picsart_25-08-15_23-17-04-368.jpg",
+
  ];
 
  var i = 1;
@@ -157,11 +154,8 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  "MintBot cân spam nhưng không có gì đáng để bạn spam."
  ];
  var link = [
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.postimg.cc/QdgH08j6/Messenger-creation-C2-A39-DCF-A8-E7-4-FC7-8715-2559476-FEEF4.gif",
- "https://i.imgur.com/WXQIgMz.jpeg",
- "https://i.imgur.com/WXQIgMz.jpeg",
+ "https://raw.githubusercontent.com/Rs-Team-BD/my-bot-assets/refs/heads/main/Picsart_25-08-15_23-17-04-368.jpg",
+
 
  ]; 
  var i = 1;
