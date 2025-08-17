@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "0admin",
 	version: "1.0.5",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "⟬⟭  ʀs  ⚡  ᴄʏʙᴇʀ  ᴛᴇᴀᴍ  ʙᴏᴛ  ⟬⟭",
 	description: "Admin Config",
 	commandCategory: "Admin",
 	usages: "Admin",
@@ -15,7 +15,7 @@ module.exports.config = {
 
 module.exports.languages = {
     "vi": {
-        "listAdmin": `===「 𝗗𝗔𝗡𝗛 𝗦𝗔́𝗖𝗛 𝗔𝗗𝗠𝗜𝗡 」===\n━━━━━━━━━━━━━━━\n%1\n\n==「 𝗡𝗚𝗨̛𝗢̛̀𝗜 𝗛𝗢̂̃ 𝗧𝗥𝗢̛̣ 𝗕𝗢𝗧 」==\n━━━━━━━━━━━━━━━\n%2`,
+        "listAdmin": `===「 ✪━☬ＲＳ✘ＲＡＩＨＡＮ☬━✪ 」===\n━━━━━━━━━━━━━━━\n%1\n\n==「 ⟬⟭  ʀs  ⚡  ᴄʏʙᴇʀ  ᴛᴇᴀᴍ  ʙᴏᴛ  ⟬⟭ 」==\n━━━━━━━━━━━━━━━\n%2`,
         "notHavePermssion": '𝗠𝗢𝗗𝗘 - Bạn không đủ quyền hạn để có thể sử dụng chức năng "%1"',
         "addedNewAdmin": '𝗠𝗢𝗗𝗘 - Đã thêm thành công %1 người dùng trở thành Admin Bot\n\n%2',
       "addedNewNDH": '𝗠𝗢𝗗𝗘 - Đã thêm thành công %1 người dùng trở thành Người hỗ trợ\n\n%2',
@@ -67,7 +67,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
             for (const idAdmin of listAdmin) {
                 if (parseInt(idAdmin)) {
                   const name = (await Users.getData(idAdmin)).name
-                    msg.push(`𝗧𝗲̂𝗻: ${name}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/${idAdmin} 💌`);
+                    msg.push(`𝗧𝗲̂𝗻: ${name}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/rsraihan215 💌`);
                 }
             }
           listNDH = NDH || config.NDH ||  [];
@@ -75,7 +75,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
             for (const idNDH of listNDH) {
                 if (parseInt(idNDH)) {
                   const name1 = (await Users.getData(idNDH)).name
-                    msg1.push(`𝗧𝗲̂𝗻: ${name1}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/${idNDH} 🤖`);
+                    msg1.push(`𝗧𝗲̂𝗻: ${name1}\n» 𝗟𝗶𝗻𝗸 𝗙𝗕: https://www.facebook.com/rsraihan215🤖`);
                 }
             }
 
@@ -126,7 +126,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
                 config.NDH.push(content[0]);
                 const name = (await Users.getData(content[0])).name
                 writeFileSync(configPath, JSON.stringify(config, null, 4), 'utf8');
-                return api.sendMessage(getText("addedNewNDH", 1, `𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗿𝘀 - ${name}`), threadID, messageID);
+                return api.sendMessage(getText("addedNewNDH", 1, `𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗿𝘀 - ✪━☬ＲＳ✘ＲＡＩＨＡＮ☬━✪`), threadID, messageID);
             }
             else return global.utils.throwError(this.config.name, threadID, messageID);
                   }
