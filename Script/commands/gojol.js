@@ -2,9 +2,9 @@ module.exports.config = {
  'name': "gojol",
  'version': "1.0.0",
  'hasPermssion': 0x0,
- 'credits': "Shaon Ahmed",
- 'description': "Made manto",
- 'commandCategory': "Hình ảnh",
+ 'credits': "Rs Raihan",
+ 'description': "Made By Rs Raihan ",
+ 'commandCategory': "gojol",
  'usages': "sad vedio",
  'cooldowns': 0x5,
  'dependencies': {
