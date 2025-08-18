@@ -1,14 +1,14 @@
 {
-  "name": "ISLAMICK BOT",
+  "name": "RS TEAM BOT",
   "version": "10.1.1",
-  "description": "made by 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_☢️",
+  "description": "made by RS RAIHAN",
   "main": "Cyber.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
   },
   "scripts": {
-      "start": "node Ullash.js",
+      "start": "node Raihan.js",
       "login": "node login",
       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
@@ -22,12 +22,12 @@
       "ullashproject",
       "messenger",
       "javasvript",
-      "ullash",
-      "cyberullash",
-      "cyberRajib ",
-      "islamick chat bot"
+      "Raihan",
+      "cyberRaihan",
+      "cyberteam",
+      "Rs Team chat bot"
   ],
-  "author": "Ullash ッ",
+  "author": "Raihan ッ",
   "license": "GPL-3.0",
   "bugs": {
       "url": "https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY/issues"
