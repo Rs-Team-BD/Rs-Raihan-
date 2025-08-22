@@ -31,6 +31,37 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "help") || (event.body.toLowerCase() == "help")) {
      return api.sendMessage("type /help", threadID);
    };
+
+   if (event.body.toLowerCase() === "ruhi") {
+  // Ruhi নিয়ে ক্যাপশন লিস্ট
+  const captions = [
+    "💖 Ruhi মানেই আমার হাসির কারণ 💖",
+    "🌸 Ruhi ছাড়া এই দুনিয়া একেবারে ফাঁকা 🌸",
+    "✨ আমার সব স্বপ্নে শুধু Ruhi ✨",
+    "💕 Ruhi মানেই ভালোবাসার অন্য নাম 💕",
+    "🌹 Ruhi এলে মনটা ফুরফুরে হয়ে যায় 🌹",
+    "⭐ Ruhi = My World ⭐",
+    "🥰 Ruhi ছাড়া আমি কিছুই না 🥰",
+    "🎶 প্রতিটা গানে Ruhi 🎶",
+    "🫶 My Queen Ruhi 🫶",
+    "🌈 Ruhi এলে জীবন রঙিন হয়ে যায় 🌈",
+    "🔥 Ruhi মানেই পাওয়ার 🔥",
+    "🌻 Ruhi = Happiness 🌻",
+    "👑 Ruhi আমার রাজকন্যা 👑",
+    "💎 Ruhi এর হাসি = ডায়মন্ড 💎",
+    "⚡ Ruhi ছাড়া দিন জমে না ⚡",
+    "🍫 Ruhi এর মিষ্টি হাসি = Chocolate 🍫",
+    "🎀 Ruhi মানেই Special 🎀",
+    "💌 Every heartbeat says Ruhi 💌",
+    "🌷 Ruhi = Love Forever 🌷",
+    "💫 Ruhi ছাড়া স্বপ্নই অসম্পূর্ণ 💫"
+  ];
+
+  // Random caption বাছাই
+  const randomCaption = captions[Math.floor(Math.random() * captions.length)];
+
+  return api.sendMessage(randomCaption, threadID);
+   };
   
    if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
      return api.sendMessage("simsimi কমান্ড এড় নাই টাইপ করুন baby", threadID);
