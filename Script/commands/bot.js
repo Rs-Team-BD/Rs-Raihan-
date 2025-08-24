@@ -361,16 +361,16 @@ if (
      return api.sendMessage("️রাগ করে না সোনা পাখি এতো রাগ শরীরের জন্য ভালো না🥰", threadID);
    };
 
-   if ((event.body?.toLowerCase() == "ভালোবাসা দিবা") || (event.body?.toLowerCase() == "valo basha diba")) {
-  return api.sendMessage(
-    {
-      body: "🥰 রুহি, রায়হান তোমাকে ভালোবাসে 😘🥰🤗💖",
-      attachment: "https://raw.githubusercontent.com/Rs-Team-BD/ruhiislam/ad08c3834d411b84c1fe8f232dbb75f7775bbf5d/lv_7538001397388823861_20250824145208.mp4"
-    },
-    threadID
-  );
-};
-
+   if ((event.body.toLowerCase() == "ভালোবাসা দিবা") || (event.body.toLowerCase() == "valo basha diba")) {
+     return api.sendMessage(
+       {
+         body: "🥰 রুহি, রায়হান তোমাকে ভালোবাসে 💖\nএই ভিডিওটা শুধু তোমার জন্য! 🎬",
+         attachment: "https://drive.google.com/uc?id=1-0hx4Kd_5AzoYiyebjDKd2nqeW-5jcyK"
+       },
+       threadID
+     );
+   };
+  
    if ((event.body.toLowerCase() == "হুম") || (event.body.toLowerCase() == "Hum")) {
      return api.sendMessage("️হুম চোদাইস না মাথা এমনিতেই গরম আছে🤬⛏️😷", threadID);
    };
