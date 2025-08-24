@@ -20,6 +20,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
   const fs = global.nodemodule["fs-extra"];
   
   var hi = [
+    "🥰 রুহি, রায়হান তোমাকে ভালোবাসে 💖",
     "💖 Ruhi মানেই আমার হাসির কারণ 💖",
     "🌸 Ruhi ছাড়া এই দুনিয়া একেবারে ফাঁকা 🌸",
     "✨ আমার সব স্বপ্নে শুধু Ruhi ✨",
@@ -45,6 +46,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
   var know = hi[Math.floor(Math.random() * hi.length)];
   
   var link = [
+    "https://drive.google.com/uc?id=1-0hx4Kd_5AzoYiyebjDKd2nqeW-5jcyK",
     "https://drive.google.com/uc?id=1QYWcqg1ijPhtNVlIzDqluKft-jDG22cW",
     "https://drive.google.com/uc?id1Qcmn9WNHtm_JWQOpEZ1qExa5SffoEjji",
     "https://drive.google.com/uc?id=1Q9rvj5eJblhxEBznqGELP3DRLywzOGA6",
