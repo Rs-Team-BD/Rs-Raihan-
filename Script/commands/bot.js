@@ -379,7 +379,7 @@ if (
      return api.sendMessage("️MY NAME IS °_>🛡️ 𝗥𝘀 𝗛𝗮𝗰𝗸𝗲𝗿 𝗧𝗲𝗮𝗺 𝗕𝗱 🛡️ 𝗯𝗼𝘁", threadID);
    };
 
-   if ((event.body.toLowerCase() == "BOT ER BACCHA") || (event.body.toLowerCase() == "Bot er bacca")) {
+   if ((event.body.toLowerCase() == "কি করিস") || (event.body.toLowerCase() == " Ki koris")) {
      return api.sendMessage("️আমার বাচ্চা তো তোমার গার্লফ্রেন্ডের পেটে..!!🌚⛏️🌶️ ", threadID);
    };
 
